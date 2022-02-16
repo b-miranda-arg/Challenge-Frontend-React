@@ -1,0 +1,27 @@
+.product-card{
+        height: 300px;
+        width:215px;
+        border: solid black;  
+        padding: 5px;
+        &__picture-wrapper{
+            max-height: 180px;
+            max-width: 180px;
+        }
+        &__picture{
+            max-width: 100%;
+            width: 180px;
+        }
+        &__title{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-weight: bold;
+        }
+        &__price{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+}

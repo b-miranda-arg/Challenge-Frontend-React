@@ -1,0 +1,20 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-align: center;  
+    width: 100%;
+    background-color: black;
+    &__link-home{
+        margin-left: 10px;
+        color: white;
+        font-size: 12px;
+    }
+    &__user-information{
+        margin-right: 10px;
+        display: flex;
+        flex-direction: row;
+        color: white;
+        font-size: 12px;
+    }
+}
