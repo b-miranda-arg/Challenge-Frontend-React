@@ -1,5 +1,95 @@
 .cart{
     height: 100%;
     width: 100%;
-    color: red;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    &__title{
+        width: 100%;
+        font-size: 25px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    &__detail{
+        display: flex;
+        flex-direction: row;
+        max-width: 80%;
+        width: 600px;
+        height: 80px;
+        background-color:white;
+        border-style: inset;
+        margin-bottom: 5px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__picture-wrapper{
+        max-height: 80px;
+        max-width: 80px;
+    }
+    &__picture{
+        max-width: 100%;
+            width: 180px;
+    }
+    &__product-name{
+        margin-right: auto
+    }
+    &__price-product{
+        margin-right: 10px;
+
+
+    }
+    &__remove{
+        background-color: black;
+        border-radius: 3px;
+        color: white;
+        height: 30px;
+    }
+    &__total{
+        display: flex;
+        flex-direction: row;
+        max-width: 80%;
+        width: 600px;
+        height: 45px;
+        background-color:white;
+        border-style: inset;
+        margin-top: 15px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title-total{
+        margin-left: 10px;
+        font-weight: bold;
+    }
+    &__price-total{
+        margin-right: 10px;
+        font-weight: bold;
+    }
+    &__buttons{
+        display: flex;
+        flex-direction: row;
+        max-width: 80%;
+        width: 600px;
+        height: 45px;
+        margin-top: 15px;
+        justify-content: space-between;
+        align-items: center; 
+    }
+    &__button-catalog{
+        background-color: black;
+        color: white;
+        border-radius: 3px;
+        padding: 5px;
+    }
+    &__button-finalize{
+        background-color: black;
+        color: white;
+        border-radius: 3px;
+        padding: 5px;
+    }
+
+
 }

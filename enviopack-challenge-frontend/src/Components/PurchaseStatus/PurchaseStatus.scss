@@ -1,0 +1,51 @@
+.purchase-status{
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__purchase-accepted{
+        max-width: 80%;
+        border-style: inset;
+        width:400px;
+        height: 80px;
+        text-align: center;
+    }
+    &__title-accepted{
+        font-weight: bold;
+        padding: 10px;
+    }
+    &__button-catalog{
+        width: 362px;
+        background: black;
+        color: white;
+    }
+    &__purchase-rejected{
+        max-width: 80%;
+        border-style: inset;
+        width: 470px;
+        height: 95px;
+        text-align: center;  
+    }
+    &__title-rejected{
+        font-weight: bold;
+        padding: 10px;
+    }
+    &__button-cart{
+        width: 362px;
+        background: black;
+        color: white;
+    }
+    &__title{
+        width: 100%;
+        font-size: 25px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+

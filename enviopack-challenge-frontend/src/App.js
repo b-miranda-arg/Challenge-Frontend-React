@@ -5,6 +5,7 @@ import { Provider } from "react-redux";
 import store from '../src/Store'
 import Catalog from '../src/Components/Catalog/Catalog'
 import Cart from '../src/Components/Cart/Cart'
+import PurchaseStatus from '../src/Components/PurchaseStatus/PurchaseStatus'
 
 const App = ()=> {
   return (
@@ -16,6 +17,7 @@ const App = ()=> {
           <Switch>
           <Route exact path='/' component={Catalog} />
           <Route exact path='/cart' component={Cart} />
+          <Route exact path='/purchase-status' component={PurchaseStatus} />
            
           </Switch>
         </div>

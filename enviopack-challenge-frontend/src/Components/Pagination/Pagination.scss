@@ -1,0 +1,17 @@
+.nav-pagination{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: center;
+    &__ul{
+        display: flex;
+        flex-direction: row; 
+        list-style:none
+    }
+    &__a{
+        padding: 10px;
+        border: inset;
+        cursor: pointer;
+    }
+}
