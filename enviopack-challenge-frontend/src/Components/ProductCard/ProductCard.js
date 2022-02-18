@@ -16,12 +16,12 @@ const ProductCard = (props)=>{
             </div>
             {props.inCart?
             (
-                <button onClick={()=>props.history.push('/cart')}>
+                <button className='product-card__button' onClick={()=>props.history.push('/cart')}>
                     Ver carrito
                 </button>
             ):
             (
-                <button onClick={()=>props.onAddToCart(props.sku)}>
+                <button className='product-card__button' onClick={()=>props.onAddToCart(props.sku)}>
                     Agregar al carrito
                 </button>
             )
